@@ -1,7 +1,7 @@
 {
-    "name": "serendipity_hq/bundle-stripe",
+    "name": "cosmow/bundle-stripe",
     "type": "symfony-bundle",
-    "description": "A set of utilities to integrate Stripe into Symfony.",
+    "description": "A set of utilities to integrate Stripe into Symfony 6.",
     "keywords": ["stripe", "bundle", "symfony"],
     "homepage": "https://github.com/Aerendir/bundle-stripe",
     "license": "MIT",
