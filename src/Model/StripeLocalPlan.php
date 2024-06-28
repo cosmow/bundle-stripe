@@ -360,7 +360,7 @@ class StripeLocalPlan implements StripeLocalResourceInterface
     /**
      * {@inheritdoc}
      */
-    public function toStripe($action)
+    public function toStripe($action): array
     {
         if ('create' !== $action && 'update' !== $action) {
             throw new \InvalidArgumentException('StripeLocalPlan::__toArray() accepts only "create" or "update" as parameter.');
